@@ -9,3 +9,5 @@ title: le fabuleux destin d'Yann
 url: http://camscofie.github.io
 feed: /atom.xml
 author_info: <a href="http://camscofie.github.io/">Yannch</a>
+
+theme: jekyll-theme-leap-day
