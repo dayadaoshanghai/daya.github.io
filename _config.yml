@@ -16,6 +16,7 @@ permalink: /:title
 paginate: 8
 paginate_path: /page:num/
 
+<<<<<<< HEAD
 # Default values
 defaults:
   -
@@ -37,3 +38,11 @@ version: "1.0.0"
 custom_header: false
 custom_nav_footer: false
 reverse: false
+=======
+title: le fabuleux destin d'Yann
+url: http://dayadaoshanghai.github.io
+feed: /atom.xml
+author_info: <a href="http://camscofie.github.io/">Yannch</a>
+
+theme: jekyll-theme-leap-day
+>>>>>>> c735d27e41ec2342213327aa1d3d728a289de466
