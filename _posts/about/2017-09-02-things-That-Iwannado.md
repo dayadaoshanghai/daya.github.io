@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 想做的事
-category: dejavu
+category: blog
 description: 做不到这辈子指定不甘心
 ---
 
