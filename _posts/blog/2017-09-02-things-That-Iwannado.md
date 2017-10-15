@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 想做的事
-category: dejavu
+category: blog
 description: 做不到这辈子指定不甘心
 ---
 
@@ -24,6 +24,3 @@ description: 做不到这辈子指定不甘心
 10. 日语 or 西班牙语 etc.： 一听就爆炸
 
 11. 锻炼身体 et 篮球： 我从来没有carry过， 我要carry 整个球场
-
-
-**ça sera fait**
