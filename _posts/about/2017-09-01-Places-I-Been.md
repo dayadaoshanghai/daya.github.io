@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 去过的地方
-category: dejavu
+category: about
 description: 国内国外走过的城市
 ---
 
@@ -11,7 +11,7 @@ description: 国内国外走过的城市
 * 香港
 * 四川
 * 陕西
-	
+
 国外
 ---------------
 
@@ -34,7 +34,7 @@ description: 国内国外走过的城市
 	- 法兰克福
     - 魏玛
     - 埃尔福特
-    - 加尔米施-帕滕基兴 
+    - 加尔米施-帕滕基兴
     - 科隆
 
 * 荷兰
@@ -57,7 +57,7 @@ description: 国内国外走过的城市
 
 * 奥地利
 	- 维也纳
-	
+
 * 西班牙
     - 巴塞罗纳
 
