@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 去过的地方
-category: about
+category: now
 description: 国内国外走过的城市
 ---
 
