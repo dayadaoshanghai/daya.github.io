@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="index-content dejavu">
+<div class="index-content now">
     <div class="section">
         <ul class="artical-cate">
             <li><a href="/"><span>Blog</span></a></li>
