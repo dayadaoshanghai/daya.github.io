@@ -5,7 +5,7 @@ highlighter: 'pygments'
 #paginate: 8
 permalink: /:title
 
-title: le fabuleux destin d'Yann
-url: http://camscofie.github.io
+# title: le fabuleux destin d'Yann
+url: http://dayadaoshangahi.github.io
 feed: /atom.xml
-author_info: <a href="http://camscofie.github.io/">Yannch</a>
+author_info: <a href="http://dayadaoshanghai.github.io/">Daya</a>
