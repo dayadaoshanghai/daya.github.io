@@ -9,4 +9,4 @@ category: blog
 
 
 
-[Yannch]:    http://camscofie.github.io  "Yannch"
+[Daya]:    http://dayadaoshanghai.github.io  ""

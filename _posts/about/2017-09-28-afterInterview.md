@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thought after interview
-category: dejavu
+category: about
 description: 随行翻译就是搬砖
 ---
 
@@ -24,4 +24,3 @@ description: 随行翻译就是搬砖
 - - - - - - - - - - - - - - -
 「 言格: 还是老老实实写代码吧，哎 」
 - - - - - - - - - - - - - - -
-
