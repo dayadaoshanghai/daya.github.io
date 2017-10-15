@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "your title"
-category: about
+category: dejavu
 description: “short description”
 ---
 
-[Daya]:    http://dayadaoshanghai.github.io  "Daya"
+[Yannch]:    http://camscofie.github.io  "Yannch"
