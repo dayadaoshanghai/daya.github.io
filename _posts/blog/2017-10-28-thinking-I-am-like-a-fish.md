@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我想象自己一条鱼
+title: 我想象自己是一条鱼
 category: blog
 description: 在水里我想象自己是一条鱼  
 ---
