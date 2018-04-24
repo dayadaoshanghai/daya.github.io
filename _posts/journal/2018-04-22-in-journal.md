@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 在journal里面吗？
-category: blog
-description: 在水里我想象自己是一条鱼  
+category: journal
+description: 在水里我想象自己是一条鱼  
 ---
 
 
