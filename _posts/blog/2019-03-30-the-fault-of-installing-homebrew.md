@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 搭建环境
+title: Homebrew安装失败
 category: blog
-description:  rails搭建环境
+description:  原来是网速的问题
 ---
 
-homebrew安装失败 
+
 **报错信息截图**  
 [![ABtVb9.md.png](https://s2.ax1x.com/2019/03/30/ABtVb9.md.png)](https://imgchr.com/i/ABtVb9)  
 
