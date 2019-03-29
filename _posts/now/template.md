@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "your title"
-category: dejavu
+category: Now
 description: “short description”
 ---
 

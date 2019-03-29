@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 真的是鱼吗
-category: blog
-description: 在水里我想象自己是一条鱼  
+title: 在journal里面吗？
+category: journal
+description: 在水里我想象自己是一条鱼  
 ---
 
 
