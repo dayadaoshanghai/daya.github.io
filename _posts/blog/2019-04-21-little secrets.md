@@ -2,7 +2,7 @@
 layout: post
 title: 小诀窍
 category: blog
-description:  
+description: 重点
 ---
 
 听Xdite直播分享    
