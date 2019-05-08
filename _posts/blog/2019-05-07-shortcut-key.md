@@ -2,7 +2,7 @@
 layout: post
 title: Mac快捷键
 category: blog
-description:记住快捷键，提高效率  
+description: 记住快捷键，提高效率  
 ---
 
 **Atom快捷键**   
