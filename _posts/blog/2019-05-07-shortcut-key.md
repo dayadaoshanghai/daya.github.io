@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 模板
+title: Mac快捷键
 category: blog
-description:  
+description:记住快捷键，提高效率  
 ---
 
 **Atom快捷键**   
