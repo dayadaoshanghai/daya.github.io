@@ -15,12 +15,20 @@ description: git入门篇   
 3. 其他开发都是从develop切出去，最后会并回来  
 
 **git 常用指令**  
-`git checkout -b 新分支名   建立新分支`       
-`git checkout 分支名    切换分支`      
-`git branch -D 分支名 `
+`git checkout -b` 新分支名   建立新分支       
+`git checkout` 分支名    切换分支      
+`git branch -D` 分支名   
+
+`git remote -v` 查看远程部署情况   
+`git merge 分支名` 合并分支到master  
+`git remote rm heroku` 删除本质与heroku的链接  
+`git push heroku 分支名:master` 把「分支名」这个分支推送到远程  
+
 
 *存档*  
 `cd 你的项目文件夹名称`      
 `git init`    
 `git add .`    
-`git commit -m "对于修改部分的简述"`
+`git commit -m "对于修改部分的简述"`   
+
+
