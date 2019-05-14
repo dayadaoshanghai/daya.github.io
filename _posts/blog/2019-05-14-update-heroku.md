@@ -9,7 +9,13 @@ description: heroku上传步骤       
 
 1. `heroku login` 登录heroku 
 2. `heroku create` 创造一个heroku app 
-3.  修改Gemfile，加入'pg' gem 
+3.  修改Gemfile，加入'pg' gem  
+```
+group :production do
+  gem 'pg'
+end
+```
+
 4. `git push heroku master` push本地master到heroku 
     也可以push最新分支到heroku，方法是`git push heroku 分支名:master`   
 5. `heroku run rake db:migrate` 数据库  
@@ -17,7 +23,9 @@ description: heroku上传步骤       
 
 
 备注： 
-删除heroku的方法：`git remote rm heroku` 
+`git remote rm heroku`  删除heroku的方法
+`heroku run rails console`  打开heroku控制台  
+
 
 
 
