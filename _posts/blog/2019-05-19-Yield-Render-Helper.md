@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Yield, Render, Helper的作用      
+title: Ruby中Yield, Render, Helper的作用      
 category: blog
 description:        
 --- 
