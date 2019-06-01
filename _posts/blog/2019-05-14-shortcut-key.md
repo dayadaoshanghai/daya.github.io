@@ -10,7 +10,7 @@ description: 记住快捷键，提高效率  
 `command+[]` 多行缩进   
   
 `command+/`  选中文件全部注释   
-#####删除和剪切 
+##### 删除和剪切 
 `ctrl+shift+K`  删除当前行  
 ##### 导航  
 `command+左方向键`  光标移到最左边    
@@ -41,4 +41,7 @@ ERB Else<% else %>CTRL + 6
 ERB Elsif<% elsif %>CTRL + SHIFT + 6
 
 ```
+
+**changelog**  
+20190531 初稿  
 
