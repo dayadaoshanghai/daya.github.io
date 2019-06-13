@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 搭建网站步骤之--step0        
+title: 搭建网站步骤之——step1        
 category: blog
-description: step0基础建设            
+description: step0基础建设             
 --- 
 
 ### Part1 安装Bootstrap   
@@ -24,7 +24,25 @@ description: step0基础建设            
 ####2. 新增navbar  
 `touch app/views/common/_navbar.html.erb`  
 填入   
-加图片  
+```  
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">JDStore </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><%= link_to("登入", '#') %></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+```   
 
 ####3. 新增footer  
 `touch app/views/common/_footer.html.erb`  
@@ -32,7 +50,29 @@ description: step0基础建设            
 加图片  
 
 ####4. 修改全域HTML样式application.html.erb  
-加代码  
+``` 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JDStore </title>
+        <%= csrf_meta_tags %>
+
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+            <%= render "common/navbar" %>
+            <%= yield %>
+        </div>
+
+        <%= render "common/footer" %>
+
+    </body>
+</html>
+``` 
 ####5. 产生一个新的Hello World页面(放在welcome#index)   
 
 `rails g controller welcome`  
@@ -50,7 +90,15 @@ end
 ```   
 
 ### Part3 增加Flash功能  
-#### 1. 将Bootstrap的js提示套件bootstrap/alert「挂」在专案里面   
+#### 1. 将Bootstrap的js提示套件bootstrap/alert「挂」在专案里面    
+``` 
+... (一堆注解)
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
++//= require bootstrap/alert
+//= require_tree .
+```  
 #### 2. 新增app/views/common/_flashes.html.erb  
 ``` 
 <% if flash.any? %>
@@ -154,8 +202,38 @@ gem 'devise'
 
 ### Part6 安装 font-awesome-rails  
 #### 1. 挂上font-awesome-rails  
-  
+``` 
+gem 'simple_form'
+gem 'font-awesome-rails'  
+```
 
+#### 2. 执行 `bundle install`   
+重启`rails s`  
+
+#### 3. 将font-awesome装进专案里面  
+```  
+@import "bootstrap";
+@import "font-awesome";  
+```  
+#### 4.修改app/views/common/_navbar.html.erb  
+```  
+             <% if !current_user %>
+               <li><%= link_to("注册", new_user_registration_path) %> </li>
+-                  <li><%= link_to("登入", new_user_session_path) %></li>
++                  <li><%= link_to(content_tag(:i, '登入', class: 'fa fa-sign-in'), new_user_session_path) %></li>
+             <% else %>
+               <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     Hi!, <%= current_user.email %>
+                     <b class="caret"></b>
+                 </a>
+                 <ul class="dropdown-menu">
+-                        <li> <%= link_to("登出", destroy_user_session_path, method: :delete) %> </li>
++                        <li> <%= link_to(content_tag(:i, '登出', class: 'fa fa-sign-out'), destroy_user_session_path, method: :delete) %> </li>
+                 </ul>
+               </li>
+             <% end %>
+``` 
 
 
 
@@ -163,5 +241,7 @@ gem 'devise'
 
 **Changelog**  
 20190529 初稿Part1  
-20190530 增加Part2,3  
+20190530 增加Part2,3   
+20190601 增加Part4,5,6  
+
 
