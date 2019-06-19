@@ -2,7 +2,7 @@
 layout: post
 title: 搭建网站步骤之——step1        
 category: blog
-description: step0基础建设             
+description: step1             
 --- 
 
 ### Part1 安装Bootstrap   

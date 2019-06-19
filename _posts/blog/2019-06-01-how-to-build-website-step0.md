@@ -90,7 +90,9 @@ end
 ```   
 
 ### Part3 增加Flash功能  
-#### 1. 将Bootstrap的js提示套件bootstrap/alert「挂」在专案里面    
+#### 1. 将Bootstrap的js提示套件bootstrap/alert「挂」在专案里面   
+ 在`app/assests/javascripts/application.js`中加入  
+ 
 ``` 
 ... (一堆注解)
 //= require jquery
@@ -100,6 +102,7 @@ end
 //= require_tree .
 ```  
 #### 2. 新增app/views/common/_flashes.html.erb  
+
 ``` 
 <% if flash.any? %>
   <% user_facing_flashes.each do |key, value| %>
@@ -146,7 +149,7 @@ end
 ### Part4 安装Devise    
 #### 1. 安装登入系统  
 Devise是一个内热门的gem，专门用来快速实作「登入系统」。在这一节我们会用devise实作登入功能。   
-Gemfile新增一行`gem 'divese`   
+Gemfile新增一行`gem divise`   
 然后执行  
 `bundle install`    
 #### 2. 产生会员系统的必要档案   
@@ -158,6 +161,7 @@ rake db:migrate
 ```  
 重启rails s   
 #### 3. 修改app/views/common/_navbar.html.erb   
+
 ```  
 -                <li> <%= link_to("登入", '#') %>   </li>
 +                <% if !current_user %>
@@ -196,7 +200,7 @@ gem 'devise'
 安装gem  
 #### 2. 安装simple_form for bootstrap设定  
 执行  
-` rails g simple_form:install --bootstrap`  
+`rails g simple_form:install --bootstrap`    
 ![V10W7V.png](https://s2.ax1x.com/2019/06/01/V10W7V.png)  
 重启 rails s  
 
@@ -243,5 +247,6 @@ gem 'font-awesome-rails'
 20190529 初稿Part1  
 20190530 增加Part2,3   
 20190601 增加Part4,5,6  
+20190619 修改格式  
 
 
