@@ -19,9 +19,9 @@ description: step0基础建设            
 ![VKSpGD.png](https://s2.ax1x.com/2019/05/29/VKSpGD.png)
    
 ### Part2 修改样式    
-####1. 新增app/views/common资料夹  
+#### 1. 新增app/views/common资料夹  
 `mkdir app/views/common `  
-####2. 新增navbar  
+#### 2. 新增navbar  
 `touch app/views/common/_navbar.html.erb`  
 填入   
 ```  
@@ -181,7 +181,8 @@ rake db:migrate
 
 ```  
 #### 4. 修改app/assets/javascripts/application.js  
-加入一行`//= require bootstrap/dropdown`  
+加入一行`//= require bootstrap/dropdown`   
+
 ``` 
 //= require bootstrap/dropdown
 //= require_tree .
@@ -190,6 +191,7 @@ rake db:migrate
 ### Part5 安装SimpleForm   
 #### 1. 首先我们要来安装simple_form   
 在Gemfile中新增一行`gem 'simple_form'`  
+ 
 ```  
 gem 'bootstrap-sass'
 gem 'devise'
@@ -205,7 +207,8 @@ gem 'devise'
 重启 rails s  
 
 ### Part6 安装 font-awesome-rails  
-#### 1. 挂上font-awesome-rails  
+#### 1. 挂上font-awesome-rails   
+
 ``` 
 gem 'simple_form'
 gem 'font-awesome-rails'  
@@ -213,13 +216,15 @@ gem 'font-awesome-rails'
 
 #### 2. 执行 `bundle install`   
 重启`rails s`  
-
-#### 3. 将font-awesome装进专案里面  
+ 
+#### 3. 将font-awesome装进专案里面     
+修改  `app/assets/stylesheets/application.scss` 
 ```  
 @import "bootstrap";
-@import "font-awesome";  
++@import "font-awesome";  
 ```  
-#### 4.修改app/views/common/_navbar.html.erb  
+#### 4.修改app/views/common/_navbar.html.erb   
+
 ```  
              <% if !current_user %>
                <li><%= link_to("注册", new_user_registration_path) %> </li>
