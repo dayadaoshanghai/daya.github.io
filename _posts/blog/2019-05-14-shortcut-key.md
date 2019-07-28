@@ -7,9 +7,9 @@ description: 记住快捷键，提高效率  
 
 ###Atom快捷键   
 `command+回车`  直接进入下一行       
-`command+[]` 多行缩进   
-  
-`command+/`  选中文件全部注释   
+`command+[]` 多行缩进     
+`command+/`  选中文件全部注释    
+`command+shift+f` 在整个工程中查找  
 ##### 删除和剪切 
 `ctrl+shift+K`  删除当前行  
 ##### 导航  
