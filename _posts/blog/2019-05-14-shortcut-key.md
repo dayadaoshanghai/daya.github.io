@@ -40,8 +40,15 @@ ERB If<% if %>CTRL + 7
 ERB Else<% else %>CTRL + 6 
 ERB Elsif<% elsif %>CTRL + SHIFT + 6
 
-```
+```  
+
+### Jupyter lab常用快捷键    
+`ESC`  从编辑模式回到命令模式  
+`A`  在当前Cell之前插入一个Cell 
+`shift+enter` 在选中的cell中执行   
+`shift+L` 显示/隐藏代码行号  
 
 **changelog**  
-20190531 初稿  
+20190531 初稿   
+20190731 增加Jupyter快捷键  
 

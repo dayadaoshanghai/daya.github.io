@@ -26,7 +26,9 @@ description: git入门篇   
 `git push origin master` 推送本地的master分支到远程的origin仓库  
 `git push -u origin master` 预设以后都是推到远程的origin仓库   
 `git pull` 拉下远程仓库的变更  
-`git push heroku 分支名:master` 把「分支名」这个分支推送到远程  
+`git push heroku 分支名:master` 把「分支名」这个分支推送到远程   
+
+`rm -rf .git` 取消对目录git初始化  
 
 
 #### 存档  
@@ -39,4 +41,7 @@ description: git入门篇   
 - 可以设定哪一些档案不被git存取  
 - 比如说config/database.yml  
 
+
+changelog  
+20190803 增加git目录取消命令  
 
